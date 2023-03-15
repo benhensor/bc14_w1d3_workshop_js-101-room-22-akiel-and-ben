@@ -9,7 +9,8 @@ if (3 > 1) {
   console.log("Of Course!");
 }
 
-let numberOfPies = getPieCount();
-if (numberOfPies < 1) {
-  console.log("Who ate all the pies???");
+function greet(name1, name2) {
+  return "Hello " + name1 + " and " + name2;
 }
+
+greet("Chris", "Ben");
